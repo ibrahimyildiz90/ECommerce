@@ -1,0 +1,15 @@
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.deps.json
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ref\ECommerce.Application.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.pdb
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Domain.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Domain.pdb
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.csproj.AssemblyReference.cache
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.AssemblyInfoInputs.cache
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.AssemblyInfo.cs
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.csproj.CopyComplete
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ref\ECommerce.Application.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.pdb

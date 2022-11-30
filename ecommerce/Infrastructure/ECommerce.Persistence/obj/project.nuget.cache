@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "CLQNYdbtgyGO7Vyv2xngBRPvh7MmQg46NHgYeQufZFhQnrtUAgafGhYpX1guSQFBe5Dvz5Uth/KuvDCcKCynmg==",
+  "success": true,
+  "projectFilePath": "D:\\kisisel\\projelerim\\gitprj\\ECommerce\\ecommerce\\Infrastructure\\ECommerce.Persistence\\ECommerce.Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ibrah\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

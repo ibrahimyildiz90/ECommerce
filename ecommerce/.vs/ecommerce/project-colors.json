@@ -5,7 +5,12 @@
       "ProjectGuid": "9415ae4a-eecf-4266-8653-aff424fc6dfd",
       "DisplayName": "ECommerce.API",
       "ColorIndex": 0
+    },
+    "c4495d3c-842d-4b44-8f96-e23e3ca73164": {
+      "ProjectGuid": "c4495d3c-842d-4b44-8f96-e23e3ca73164",
+      "DisplayName": "ECommerce.API",
+      "ColorIndex": 1
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 2
 }
