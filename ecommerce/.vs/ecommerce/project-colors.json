@@ -10,7 +10,42 @@
       "ProjectGuid": "c4495d3c-842d-4b44-8f96-e23e3ca73164",
       "DisplayName": "ECommerce.API",
       "ColorIndex": 1
+    },
+    "b2da3f16-3924-4837-86a8-0915d86c55ab": {
+      "ProjectGuid": "b2da3f16-3924-4837-86a8-0915d86c55ab",
+      "DisplayName": "ECommerce.Domain",
+      "ColorIndex": 2
+    },
+    "eba5a359-426e-45c2-baf8-cc561a91b54f": {
+      "ProjectGuid": "eba5a359-426e-45c2-baf8-cc561a91b54f",
+      "DisplayName": "ECommerce.Application",
+      "ColorIndex": 3
+    },
+    "50a426e6-8695-4acc-b1f5-90f95c333acc": {
+      "ProjectGuid": "50a426e6-8695-4acc-b1f5-90f95c333acc",
+      "DisplayName": "ECommerce.Application",
+      "ColorIndex": 4
+    },
+    "28af198f-8340-40c5-9606-ee588763dbeb": {
+      "ProjectGuid": "28af198f-8340-40c5-9606-ee588763dbeb",
+      "DisplayName": "ECommerce.Infrastructure",
+      "ColorIndex": 5
+    },
+    "e36251d6-9109-4885-b417-c67baf87705d": {
+      "ProjectGuid": "e36251d6-9109-4885-b417-c67baf87705d",
+      "DisplayName": "ECommerce.Persistence",
+      "ColorIndex": 6
+    },
+    "3b2c0f67-8965-489c-9136-5e05f8fc5b83": {
+      "ProjectGuid": "3b2c0f67-8965-489c-9136-5e05f8fc5b83",
+      "DisplayName": "ECommerce.API",
+      "ColorIndex": 7
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 8
 }
