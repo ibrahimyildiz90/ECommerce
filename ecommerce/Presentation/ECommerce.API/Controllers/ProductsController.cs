@@ -1,4 +1,5 @@
 ﻿using ECommerce.Application.Repository;
+using ECommerce.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,23 +12,33 @@ namespace ECommerce.API.Controllers
         private readonly IProductWriteRepository _productWriteRepository;
         private readonly IProductReadRepository _productReadRepository;
 
-        public ProductsController(IProductWriteRepository productWriteRepository, IProductReadRepository productReadRepository)
+        private readonly IOrderWriteRepository _orderWriteRepository;
+        private readonly IOrderReadRepository _orderReadRepository;
+
+        private readonly ICustomerWriteRepository _customerWriteRepository;
+
+
+        public ProductsController(IProductWriteRepository productWriteRepository,
+            IProductReadRepository productReadRepository,
+            IOrderWriteRepository orderWriteRepository,
+            IOrderReadRepository orderReadRepository, ICustomerWriteRepository customerWriteRepository)
         {
             _productWriteRepository = productWriteRepository;
             _productReadRepository = productReadRepository;
+            _orderWriteRepository = orderWriteRepository;
+            _orderReadRepository = orderReadRepository;
+            _customerWriteRepository = customerWriteRepository;
         }
 
         [HttpGet]
-        public async void Get()
+        public async Task Get()
         {
-            await _productWriteRepository.AddRangeAsync(new()
-            {
-                new() { Id=Guid.NewGuid(),Name="Product 1",Price=100,CreatedDate=DateTime.UtcNow, Stock=10},
-                new() { Id = Guid.NewGuid(), Name = "Product 2", Price = 200, CreatedDate = DateTime.UtcNow, Stock = 10 },
-                new() { Id = Guid.NewGuid(), Name = "Product 3", Price = 300, CreatedDate = DateTime.UtcNow, Stock = 10 }
-            });
+            var customerid=Guid.NewGuid();
+            await _customerWriteRepository.AddAsync(new() { Id= customerid ,Name="Abdullah"});
 
-            await _productWriteRepository.SaveAsync();
+            await _orderWriteRepository.AddAsync(new() {Description="asdasds",Address="1asdasd as",CustomerId= customerid });
+            await _orderWriteRepository.AddAsync(new() { Description = "asdasds 2", Address = "asasd  asddasdasd",CustomerId=customerid });
+            await _orderWriteRepository.SaveAsync();
         }
     }
 }
