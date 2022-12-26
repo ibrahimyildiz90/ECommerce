@@ -11,7 +11,7 @@ import { UiModule } from './ui/ui.module';
     AppComponent
   ],
   imports: [
-    BrowserModule,
+    BrowserModule,    
     AppRoutingModule,
     AdminModule,
     UiModule
