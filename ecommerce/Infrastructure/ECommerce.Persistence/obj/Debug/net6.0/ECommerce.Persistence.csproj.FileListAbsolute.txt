@@ -1,6 +1,5 @@
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\bin\Debug\net6.0\ECommerce.Persistence.deps.json
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\bin\Debug\net6.0\ECommerce.Persistence.dll
-D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\bin\Debug\net6.0\ref\ECommerce.Persistence.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\bin\Debug\net6.0\ECommerce.Persistence.pdb
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\bin\Debug\net6.0\ECommerce.Application.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\bin\Debug\net6.0\ECommerce.Domain.dll
@@ -15,3 +14,4 @@ D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persis
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net6.0\ECommerce.Persistence.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net6.0\ref\ECommerce.Persistence.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net6.0\ECommerce.Persistence.pdb
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Persistence\obj\Debug\net6.0\refint\ECommerce.Persistence.dll

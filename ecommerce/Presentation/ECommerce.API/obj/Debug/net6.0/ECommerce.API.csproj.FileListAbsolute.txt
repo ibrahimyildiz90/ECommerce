@@ -4,7 +4,6 @@ D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ECommerce.API.deps.json
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ECommerce.API.runtimeconfig.json
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ECommerce.API.dll
-D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ref\ECommerce.API.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ECommerce.API.pdb
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\Humanizer.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -59,3 +58,9 @@ D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Physical.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.ECommerce.API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.build.ECommerce.API.props
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.ECommerce.API.props
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ECommerce.API.props
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\refint\ECommerce.API.dll

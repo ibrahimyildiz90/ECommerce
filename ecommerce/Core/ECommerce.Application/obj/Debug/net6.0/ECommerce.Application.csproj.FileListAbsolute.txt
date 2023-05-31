@@ -1,6 +1,5 @@
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.deps.json
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.dll
-D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ref\ECommerce.Application.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Application.pdb
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Domain.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\bin\Debug\net6.0\ECommerce.Domain.pdb
@@ -13,3 +12,4 @@ D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ref\ECommerce.Application.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\ECommerce.Application.pdb
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Core\ECommerce.Application\obj\Debug\net6.0\refint\ECommerce.Application.dll
