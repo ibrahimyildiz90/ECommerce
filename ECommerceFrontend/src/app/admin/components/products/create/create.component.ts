@@ -25,7 +25,7 @@ export class CreateComponent extends BaseComponent implements OnInit {
     const createproduct: CreateProduct = new CreateProduct();
     createproduct.name = name.value;
     createproduct.stock = parseInt(stock.value);
-    createproduct.price = parseFloat(price.value);
+    createproduct.price = parseFloat(price.value);   
 
     this.productService.create(createproduct,()=>{
       this.hideSpinner(SpinnerType.BallAtom);
@@ -34,6 +34,14 @@ export class CreateComponent extends BaseComponent implements OnInit {
         messageType:MessageType.Success,
         position:Position.TopRight
       });
+    },erorMessage=>{
+      this.alertify.message(erorMessage,
+        {
+          dismissOtherts:true,
+          messageType:MessageType.Error,
+          position:Position.TopRight,
+          delay:5
+        })
     });
   }
 

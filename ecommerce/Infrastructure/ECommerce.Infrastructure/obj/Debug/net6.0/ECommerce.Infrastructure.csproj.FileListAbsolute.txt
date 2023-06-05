@@ -1,6 +1,5 @@
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net6.0\ECommerce.Infrastructure.deps.json
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net6.0\ECommerce.Infrastructure.dll
-D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net6.0\ref\ECommerce.Infrastructure.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net6.0\ECommerce.Infrastructure.pdb
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net6.0\ECommerce.Application.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\bin\Debug\net6.0\ECommerce.Domain.dll
@@ -15,3 +14,4 @@ D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infras
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net6.0\ECommerce.Infrastructure.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net6.0\ref\ECommerce.Infrastructure.dll
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net6.0\ECommerce.Infrastructure.pdb
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Infrastructure\ECommerce.Infrastructure\obj\Debug\net6.0\refint\ECommerce.Infrastructure.dll

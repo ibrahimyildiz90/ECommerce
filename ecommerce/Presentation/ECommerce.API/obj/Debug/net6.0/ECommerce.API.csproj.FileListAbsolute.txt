@@ -64,3 +64,8 @@ D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.ECommerce.API.props
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\staticwebassets.pack.json
 D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\obj\Debug\net6.0\refint\ECommerce.API.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\FluentValidation.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ECommerce.Infrastructure.dll
+D:\kisisel\projelerim\gitprj\ECommerce\ecommerce\Presentation\ECommerce.API\bin\Debug\net6.0\ECommerce.Infrastructure.pdb

@@ -3,6 +3,7 @@ using ECommerce.Application.ViewModels.Products;
 using ECommerce.Domain.Entities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.Net;
 
 namespace ECommerce.API.Controllers
@@ -35,9 +36,15 @@ namespace ECommerce.API.Controllers
             return Ok(await _productReadRepository.GetByIdAsync(id, false));
         }
 
-        [HttpPost]
+        [HttpPost]    
         public async Task<IActionResult> Post(CreateProductModel model)
         {
+            if (ModelState.IsValid)
+            {
+
+            }
+
+
             await _productWriteRepository.AddAsync(new()
             {
                 Name = model.Name,
