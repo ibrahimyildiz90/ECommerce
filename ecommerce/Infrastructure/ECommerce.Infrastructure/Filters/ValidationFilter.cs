@@ -21,7 +21,7 @@ namespace ECommerce.Infrastructure.Filters
 
                 context.Result = new BadRequestObjectResult(errors);
 
-                return;
+                return; 
             }
 
             await next();
