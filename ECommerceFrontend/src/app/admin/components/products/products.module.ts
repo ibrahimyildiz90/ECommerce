@@ -8,6 +8,9 @@ import { ListComponent } from './list/list.component'
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatButtonModule} from '@angular/material/button';
+import {AfterViewInit, Component, ViewChild} from '@angular/core';
+import {MatPaginator, MatPaginatorModule} from '@angular/material/paginator';
+import {MatTableDataSource, MatTableModule} from '@angular/material/table';
 
 
 @NgModule({
@@ -24,7 +27,8 @@ import {MatButtonModule} from '@angular/material/button';
     MatSidenavModule,
     MatInputModule,
     MatFormFieldModule,
-    MatButtonModule    
+    MatButtonModule,
+    MatTableModule,MatPaginatorModule  
   ]
 })
 export class ProductsModule { }

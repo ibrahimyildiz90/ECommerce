@@ -1,4 +1,5 @@
 ﻿using ECommerce.Application.Repository;
+using ECommerce.Application.RequestParameters;
 using ECommerce.Application.ViewModels.Products;
 using ECommerce.Domain.Entities;
 using Microsoft.AspNetCore.Http;
@@ -24,10 +25,26 @@ namespace ECommerce.API.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> Get()
+        public async Task<IActionResult> Get([FromQuery]Pagination pagination)
         {
+            var totalCount= _productReadRepository.GetAll(false).Count();
 
-            return Ok(_productReadRepository.GetAll(false));
+            var products = _productReadRepository.GetAll(false).Skip(pagination.Page * pagination.Size).Take(pagination.Size)
+                .Select(x => new
+                    {
+                        x.Id,
+                        x.Name,
+                        x.Stock,
+                        x.Price,
+                        x.CreatedDate,
+                        x.UpdatedDate
+                    });
+
+            return Ok(new 
+            {
+                TotalCount = totalCount,
+                Products = products
+            });
         }
 
         [HttpGet("{id}")]
@@ -38,13 +55,7 @@ namespace ECommerce.API.Controllers
 
         [HttpPost]    
         public async Task<IActionResult> Post(CreateProductModel model)
-        {
-            if (ModelState.IsValid)
-            {
-
-            }
-
-
+        {       
             await _productWriteRepository.AddAsync(new()
             {
                 Name = model.Name,
