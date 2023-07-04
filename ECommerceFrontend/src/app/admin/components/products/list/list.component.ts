@@ -26,7 +26,7 @@ export class ListComponent extends BaseComponent implements OnInit{
   @ViewChild(MatPaginator) paginator: MatPaginator;
 
   async getProducts()
-  {
+  {    
     this.showSpinner(SpinnerType.BallAtom);
     const page=this.paginator ? this.paginator.pageIndex : 0;
     const size=this.paginator ? this.paginator.pageSize : 5;

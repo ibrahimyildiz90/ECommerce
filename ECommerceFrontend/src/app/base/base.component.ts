@@ -6,9 +6,10 @@ constructor(private spinner:NgxSpinnerService){
  
 }
 showSpinner(spinnerNameType:SpinnerType){
+
     this.spinner.show(spinnerNameType);
 
-    // setTimeout(()=> this.hideSpinner(spinnerNameType),1000)
+     setTimeout(()=> this.hideSpinner(spinnerNameType),1000)
 }
 
 hideSpinner(spinnerNameType:SpinnerType){
