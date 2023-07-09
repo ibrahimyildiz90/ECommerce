@@ -5,6 +5,7 @@ import { NgxSpinnerService } from 'ngx-spinner';
 import { SpinnerType } from 'src/app/base/base.component';
 import { DeleteDialogComponent, DeleteState } from 'src/app/dialogs/delete-dialog/delete-dialog.component';
 import { AlertifyService, MessageType, Position } from 'src/app/services/admin/alertify.service';
+import { DialogService } from 'src/app/services/common/dialog.service';
 import { HttpClientService } from 'src/app/services/common/http-client.service';
 import { ProductService } from 'src/app/services/common/models/product.service';
 
@@ -20,7 +21,8 @@ export class DeleteDirective {
     private httpClientService: HttpClientService,
     private spinner: NgxSpinnerService,
     public dialog: MatDialog,
-    private alertifyService: AlertifyService) {
+    private alertifyService: AlertifyService,
+    private dialogService:DialogService) {
 
 
     const icon = _renderer.createElement("mat-icon");
@@ -39,7 +41,46 @@ export class DeleteDirective {
   @Input() controller: string;
   @Output() callback: EventEmitter<any> = new EventEmitter();
 
+
   @HostListener("click")
+  async onclick() {
+    this.dialogService.openDialog({
+      componentType:DeleteDialogComponent,
+      data: DeleteState.Yes,
+      afterClosed: async () =>{
+        this.spinner.show(SpinnerType.BallAtom);
+        const td: HTMLTableCellElement = this.element.nativeElement;
+        this.httpClientService.delete({
+          controller:this.controller
+        },this.id).subscribe(data =>{
+          $(td.parentElement).animate({
+            opacity: 0,
+            left:"+=50"
+          },700,()=>{
+            this.callback.emit();
+            this.alertifyService.message("Product was removed",{
+              dismissOtherts:true,
+              messageType:MessageType.Success,
+              position:Position.TopRight
+            });
+          });
+        },(errorResponse:HttpErrorResponse)=>{
+          this.spinner.hide();
+          this.alertifyService.message("Ooooops!",{
+            dismissOtherts:true,
+            messageType:MessageType.Error,
+            position:Position.TopRight
+          })
+        })
+      } 
+    });
+  }
+
+
+
+
+
+  /* @HostListener("click")
   async onclick() {
     this.openDialog(async () => {
       this.spinner.show(SpinnerType.BallAtom);
@@ -68,8 +109,8 @@ export class DeleteDirective {
         })
       });      
     });
-  }
-
+  } */
+/* 
   openDialog(afterClosed: any): void {
     const dialogRef = this.dialog.open(DeleteDialogComponent, {
       data: DeleteState.Yes,
@@ -80,6 +121,6 @@ export class DeleteDirective {
         afterClosed();
       }
     });
-  }
+  } */
 
 }
